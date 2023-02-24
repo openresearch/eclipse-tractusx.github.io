@@ -26,6 +26,9 @@ import styles from "./styles.module.css";
 import Business_Kit from "@site/static/img/gallery-business_kit-minified.png";
 import MoreToCome from "@site/static/img/gallery-more_coming-minified.png";
 import DataChain_Kit from "@site/static/img/gallery-datachain_kit-minified.png";
+import Knowledge_Agent_Kit from "@site/static/img/gallery-agent_kit-minified.png";
+import Service_Kit from "@site/static/img/gallery-service_kit-minified.png";
+import HealthIndicator_Kit from "@site/static/img/gallery-healthindicator_kit-minified.png";
 
 
 export default function KitsGallery() {
@@ -42,6 +45,21 @@ export default function KitsGallery() {
     },
     {
       id: 3,
+      img: Knowledge_Agent_Kit,
+      pageRoute: "docs/kits/Knowledge Agent Kit/Adoption View"
+    },
+    {
+      id: 4,
+      img: Service_Kit,
+      pageRoute: "docs/kits/Service Kit/Adoption View"
+    },
+    {
+      id: 5,
+      img: HealthIndicator_Kit,
+      pageRoute: "docs/kits/Health Indicator Kit/Adoption View"
+    },
+    {
+      id: 4,
       img: MoreToCome
     },
   ]
